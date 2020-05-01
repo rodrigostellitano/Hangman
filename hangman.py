@@ -165,9 +165,7 @@ O   |
                     print(self.list_word)
                     try_word = input('Digite uma letra: ').upper()
                    
-                    print(try_word)
-
-
+                    #print(try_word)
 
                     #Verifica se é uma letra e não é numero ou caracter especial
                     if re.match(self.pattern, try_word) is None or len(try_word) > 1 :
